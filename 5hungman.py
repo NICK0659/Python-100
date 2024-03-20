@@ -22,6 +22,6 @@ while lives>0:
     for position in range(len_word):
         letter=chosen_word[position]
         if letter==guess:
-            display[position]=letter          
+            display[position]=letter     
     print(display)
             
